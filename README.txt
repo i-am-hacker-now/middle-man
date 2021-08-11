@@ -32,3 +32,68 @@ Arpy https://github.com/ivanvza/arpy
 
 http.host == website_url
 ip.addr == ip_address
+
+Netdiscover
+----------
+
+"Command below will show connected devices of access point"
+
+> netdiscover -r 192.168.8.1/24
+
+"You can use also other tools such as Nmap or ZenMap"
+
+NMap/ZenMap
+-----------
+
+NMap/ZenMap https://nmap.org/
+
+There are many scan types
+- Quick Scan
+- Regular Scan
+- Quick Scan Plus
+- Intense Scan
+
+"When it was found open port such as ssh, it can be access"
+
+> ssh root@ip_address
+
+"In iphone, there was rooted; Default password is alpine"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
